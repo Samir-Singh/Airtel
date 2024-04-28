@@ -1,0 +1,34 @@
+.container {
+  width: 93%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.locality {
+  width: 93%;
+  margin: auto;
+  font-weight: var(--semibold);
+  font-size: var(--font-size-05);
+}
+.mapAria {
+  width: 76%;
+  border-radius: 5px;
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+}
+.btnAlignment {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 1.6rem;
+}
+.newUserOnboardinP {
+  font-size: var(--font-size-05);
+}
+.modalConatiner {
+  padding: 0px 14px;
+}
+.inputWidth1 {
+  margin-top: 1rem;
+}

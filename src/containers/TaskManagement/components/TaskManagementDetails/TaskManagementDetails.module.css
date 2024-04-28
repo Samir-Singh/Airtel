@@ -1,0 +1,19 @@
+.taskContainer{
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 1.5rem;
+    font-weight: var(--semi-bold);
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+.taskDetails{
+    display: flex;
+    width: 68%;
+    /* border: 1px solid var(--grey-20);
+    border-radius: 5px; */
+}

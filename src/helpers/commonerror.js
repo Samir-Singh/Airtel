@@ -1,0 +1,22 @@
+export const errorMessage = {
+  enterMobileNumber: "Please enter mobile number",
+  mobileCharacters: "Mobile number should be 10 characters",
+  enterPassword: "Please enter password",
+  passAlphaNumeric: "Password should be alpha numeric",
+  shouldSamePassword: "Password should be same",
+  passwordNotValid:
+    "Password should contain one special character, one character, and one number",
+  passwordLength: "Password should be at least of 8 characters",
+  selectTeam: "Please select team",
+  selectRole: "Please select role",
+  selectCircle: "Please select circle",
+  selectCirclePlanningLead: "Please select circle planning lead",
+  selectFile: "Please select file",
+  enterName: "Please enter name",
+  enterEmail: "Please enter email id",
+  validEmail: "Please enter a valid email",
+  enterOlmId: "Please enter OLM ID",
+  olmIdLength: "OLM ID should be 8 characters",
+  enterCircleName: "Please enter circle name",
+  enterCircleAbb: "Please enter circle abbreviation",
+};

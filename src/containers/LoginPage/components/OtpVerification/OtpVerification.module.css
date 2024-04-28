@@ -1,0 +1,55 @@
+.LockIcon {
+  width: 5.7rem;
+  height: 5.7rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.otpVerification {
+  text-align: center;
+}
+
+.modal_main_div {
+  padding: 3em 0em;
+  padding-bottom: 1em;
+}
+
+.btn_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58%;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.BackToLogIn {
+  justify-content: center;
+  display: flex;
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 1em;
+  font-weight: var(--bold);
+}
+.otpverification {
+  color: var(--black);
+  text-align: center;
+  font-size: var(--font-size-05);
+  font-weight: var(--bold);
+}
+
+.enter_otp_para {
+  margin-top: 1em;
+  color: var(--black);
+}
+
+.send_code_span {
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+}

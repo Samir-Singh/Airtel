@@ -1,0 +1,101 @@
+.rightSide {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.ftthapplicationlogin {
+  color: var(--primary-color);
+  text-align: left;
+  font-size: var(--font-size-05);
+  font-weight: var(--bold);
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.formControl {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.formWidth {
+  width: 51%;
+}
+
+.OrRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.line {
+  border-style: solid;
+  border-color: var(--black);
+  border-width: 0.5px 0 0 0;
+  width: 96px;
+  position: relative;
+}
+
+.or {
+  color: var(--black);
+  text-align: center;
+  position: relative;
+  width: 2.5rem;
+}
+
+.sso_login_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginWithCompany {
+  justify-content: center;
+  display: flex;
+  color: var(--primary-color);
+  margin-top: 1em;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: var(--font-size-02);
+}
+
+.passwordCheck {
+  margin-top: 1em;
+}
+.eyeIconHandle {
+  position: absolute;
+  top: 53%;
+  right: 3%;
+  cursor: pointer;
+}
+
+.errIconHandle {
+  position: absolute;
+  top: 38%;
+  right: 3%;
+  cursor: pointer;
+}
+
+.forgetPassword {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: var(--semibold);
+  text-align: right;
+  margin-top: 1em;
+  font-size: var(--font-size-00);
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.login_btn_div {
+  margin-top: 3em;
+}

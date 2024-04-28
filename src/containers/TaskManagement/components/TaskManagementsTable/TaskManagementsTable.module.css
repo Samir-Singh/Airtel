@@ -1,0 +1,13 @@
+
+
+.status_div {
+  width: 10rem;
+  padding-left: 0.2rem;
+}
+.filter_div {
+  display: flex;
+  width: 30%;
+  gap: 3%;
+  align-items: center;
+  flex-wrap: wrap;
+}

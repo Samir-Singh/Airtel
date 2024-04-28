@@ -1,0 +1,211 @@
+.assistant {
+  font-family: "Assistant", sans-serif !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #b00101;
+  --white: #ffffff;
+  --black: #1b1212;
+
+  --tabDisable: #707070;
+
+  --grey-00: #fdfdfd;
+  --grey-05: #f5f5f5;
+  --grey-10: #f0f0f0;
+  --grey-15: #e5e5e5;
+  --grey-20: #dbdbdb;
+  --grey-25: #cacaca;
+  --grey-30: #c2c2c2;
+  --grey-40: #d5d5d5;
+  --grey-50: #898989;
+  --grey-55: #7b7b7b;
+  --grey-60: #6e6e6e;
+  --grey-65: #5c5c5c;
+
+  /* Font Weight Styling */
+  --light: 300;
+  --regular: 400;
+  --semibold: 600;
+  --bold: 700;
+
+  /* Font Size Styling */
+  --font-size-00: 0.875rem; /* 14px */
+  --font-size-01: 1rem; /* 16px */
+  --font-size-02: 1.125rem; /* 18px */
+  --font-size-03: 1.5rem; /*24px*/
+  --font-size-04: 1.75rem; /*28px*/
+  --font-size-05: 2rem; /*32px*/
+}
+
+/* to hide the input arrow whose type is number  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* styling the  scrollbar*/
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fff; /* color of the tracking area */
+  opacity: 1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #babac0; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  opacity: 1;
+}
+
+.css-j204z7-MuiFormControlLabel-root {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.customModal .modal-content {
+  margin-top: 10% !important;
+}
+
+/* Common Css */
+
+.ellipsis_para {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.width_5_ch {
+  width: 5ch;
+}
+
+.width_10_ch {
+  width: 10ch;
+}
+
+.width_14_ch {
+  width: 14ch;
+}
+
+.width_16_ch {
+  width: 16ch;
+}
+
+.width_20_ch {
+  width: 20ch;
+}
+
+.pagination_div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.main_container {
+  max-width: 92% !important;
+  padding: 0 !important;
+}
+
+.dashboard_header {
+  color: var(--black);
+  font-size: var(--font-size-05);
+  font-weight: var(--semibold);
+  padding: 0.3rem 0 0.3rem 0;
+}
+
+.dashboard_flex_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table_container {
+  margin-top: 1em;
+  overflow-x: auto;
+}
+
+.table_heading {
+  text-wrap: nowrap;
+}
+
+.table_head {
+  background-color: var(--grey-05);
+}
+
+.table_heading_row {
+  border-radius: 8px;
+  border-bottom: 6px solid var(--white);
+}
+
+.table_heading_row th,
+.table_heading_row td {
+  color: var(--black);
+  background-color: var(--grey-05) !important;
+  padding: 10px !important;
+}
+
+.table_body_row td {
+  background-color: var(--grey-05) !important;
+  border: none;
+  padding: 10px !important;
+  vertical-align: middle;
+}
+
+.more_action_icon {
+  font-size: var(--font-size-03);
+  cursor: pointer;
+}
+
+.errorMsg {
+  color: var(--primary-color);
+  font-size: var(--font-size-00);
+  margin-bottom: 0px;
+}
+
+.btn_alignment_div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 96%;
+  margin-top: 1em;
+}
+.select_tab {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+}
+.redRule {
+  color: var(--primary-color);
+  font-size: var(--font-size-02);
+  font-weight: var(--semibold);
+  margin-bottom: 0px;
+  opacity: 0.5 !important;
+}
+
+.select_div {
+  width: 150px;
+}
+
+.reset_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.my-button:hover {
+  transform: scale(0.97);
+  transition: transform 0.2s ease-in-out;
+}

@@ -1,0 +1,51 @@
+.input_box {
+  width: 100%;
+  margin-top: 1rem;
+  height: 3rem;
+  background-color: var(--grey-15);
+  outline: none;
+  border: 1px solid var(--grey-15);
+  padding: 0% 3%;
+  border-radius: 4px;
+}
+
+.input_box::placeholder {
+  color: var(--grey-60);
+  font-size: var(--font-size-02);
+}
+
+.kmlFile_input_div {
+  height: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--grey-15);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0% 3%;
+  gap: 3%;
+}
+
+.attach_file_icon {
+  color: var(--grey-60);
+  font-size: var(--font-size-02);
+}
+
+.attach_file_para {
+  font-size: var(--font-size-02);
+  color: var(--grey-60);
+}
+
+.input_file {
+  display: none;
+}
+.text_area{
+  width: 100%;
+  height: 10rem;
+  background-color: var(--grey-15);
+  outline: none;
+  border: 1px solid var(--grey-15);
+  padding: 0% 3%;
+  border-radius: 4px;
+  /* resize: none; */
+}

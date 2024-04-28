@@ -1,0 +1,67 @@
+.custumCss {
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: 0px 1px 52px 0px rgba(0, 0, 0, 0.08);
+}
+
+.costum_css_01 {
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: 0px 1px 52px 0px rgba(0, 0, 0, 0.08);
+}
+
+.Airteliconhandle {
+  padding-left: 40px;
+}
+.Usericonhandle {
+  padding-right: 40px;
+  position: relative;
+  cursor: pointer;
+}
+.linkWidth {
+  width: 12rem;
+  position: relative;
+  text-align: end;
+  cursor: default;
+}
+.linkWidth1 {
+  width: 16.5rem;
+  position: relative;
+  text-align: end;
+  cursor: default;
+}
+.headername {
+  color: var(--black);
+  font-weight: var(--regular);
+  cursor: pointer;
+}
+.headernameActive {
+  color: var(--black);
+  border-bottom: 2px solid var(--primary-color);
+  font-weight: var(--semibold);
+}
+
+.admin {
+  position: relative;
+  top: -3px;
+}
+
+.logout_div {
+  border-radius: 8px;
+  position: absolute;
+  top: 100%;
+  right: 35%;
+  min-width: 10rem;
+  background-color: var(--white);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 1500;
+}
+
+.logout_li {
+  padding: 3% 10%;
+}
+
+.logout_li:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}

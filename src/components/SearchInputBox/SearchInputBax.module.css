@@ -1,0 +1,30 @@
+.s1 {
+  position: relative;
+  width: 30rem;
+  padding: 1% 0%;
+}
+.search_bar {
+  width: 100%;
+  padding: 2.5% 2%;
+  border: 1px solid #cbcbcb;
+  border-radius: 8px;
+  outline: none;
+  padding-right: 12%;
+}
+.search_pipe {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 2rem;
+  color: #cbcbcb;
+  transform: translateY(-55%);
+}
+.search_icon {
+  position: absolute;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}

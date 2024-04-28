@@ -1,0 +1,8 @@
+.checkboxAlign {
+  display: flex;
+  gap: 20px;
+}
+.form-check-input is-valid:checked {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}

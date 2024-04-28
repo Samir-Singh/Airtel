@@ -1,0 +1,111 @@
+.tabAlignments {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 5rem;
+}
+
+.flex_div {
+  display: flex;
+  justify-content: flex-end;
+  width: 21em;
+  gap: 3%;
+  padding: 1% 0%;
+}
+
+.inputFieldsAlignment {
+  display: flex;
+  gap: 20px;
+}
+
+.inputFieldsAlignment1 {
+  display: flex;
+  gap: 20px;
+}
+
+.kmlFileDiv {
+  margin-top: 1rem;
+}
+
+.inputWidth1 {
+  width: 100%;
+}
+
+.modalConatiner {
+  padding-left: 14px;
+}
+
+.tabAlignments {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 1rem;
+}
+.masterDatamanagementtab,
+.masterDatamanagementtabActive {
+  color: var(--tabDisable);
+  min-width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-size: var(--font-size-03);
+  cursor: pointer;
+}
+
+.masterDatamanagementtabActive {
+  color: var(--primary-color);
+  background-color: var(--grey-05);
+  border-radius: 10px;
+  font-weight: var(--semibold);
+}
+
+.kml_file_para {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%;
+}
+
+.more_actions_div {
+  border-radius: 8px;
+  position: absolute;
+  width: 8em;
+  top: 100%;
+  right: 80%;
+  background-color: var(--white);
+  z-index: 1202;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.more_action_li {
+  padding: 5% 20%;
+  text-align: start;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.more_action_li:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.action_para {
+  text-align: start;
+  position: relative;
+}
+
+.last_update_para {
+  color: var(--grey-60);
+  display: flex;
+  align-items: center;
+  gap: 7%;
+}
+
+.newUserOnboardinP {
+  font-size: var(--font-size-05);
+}
+
+p {
+  margin: 0;
+}

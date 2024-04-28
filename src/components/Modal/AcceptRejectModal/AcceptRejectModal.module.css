@@ -1,0 +1,17 @@
+.newUserOnboardinP{
+    font-size: 1.2rem;
+    font-weight: var(--bold);
+    white-space: nowrap;
+    /* padding-bottom: 0.5rem; */
+  }
+  .modalConatiner{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .btnAlignment{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }

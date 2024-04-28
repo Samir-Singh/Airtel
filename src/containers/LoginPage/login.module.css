@@ -1,0 +1,33 @@
+.leftSide,
+.rightSide {
+  height: 100vh;
+}
+
+.leftSide {
+  background-color: var(--primary-color);
+}
+
+.leftSide .mainlogoAlignment {
+  display: flex;
+  justify-content: center;
+}
+
+.mainlogoAlignment img {
+  position: relative;
+  top: 5.3rem;
+}
+
+.removeExtrapadding {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.internetImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.internetImgWidth {
+  width: 19rem;
+  height: 19rem;
+}

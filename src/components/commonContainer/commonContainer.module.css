@@ -1,0 +1,8 @@
+.flex_div {
+    display: flex;
+    justify-content: flex-end;
+    width: 21em;
+    gap: 3%;
+    padding: 1% 0%;
+  }
+  

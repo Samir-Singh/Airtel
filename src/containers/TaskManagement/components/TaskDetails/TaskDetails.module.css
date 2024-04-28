@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--grey-05);
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.col{
+    width: 15rem;
+    flex-wrap: nowrap;
+}
+.label{
+    font-size: var(--font-size-01);
+    font-weight: var(--semibold);
+    color: var(--black);
+}
+.value{
+    font-size: var(--font-size-01);
+    font-weight: var(--regular);
+    color: var(--grey-65);
+}

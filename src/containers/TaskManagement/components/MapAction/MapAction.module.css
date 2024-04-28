@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+.heading {
+  font-size: 1.5rem;
+  font-weight: var(--semi-bold);
+  margin-bottom: 0.3rem;
+  color: var(--black);
+}
+.actionContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 8rem;
+  border: 1px solid var(--grey-20);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.headAction {
+  font-size: 1rem;
+  color: var(--black);
+}
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.8rem 0 0.8rem 0;
+}
+.correction {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: var(--semi-bold);
+  cursor: pointer;
+}
+.statusContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 8rem;
+  max-height: 25rem;
+  border: 1px solid var(--grey-20);
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+  scrollbar-width: thin;
+}
+.statusContent::-webkit-scrollbar {
+    width: 6px;  /* for Chrome, Safari, and Opera */
+  }
+  
+  .statusContent::-webkit-scrollbar-thumb {
+    background-color: var(--grey-20);  /* for Chrome, Safari, and Opera */
+    border-radius: 15px;
+  }
+
+  .order{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.5rem 0;
+    align-items:self-start;
+  }
+  .imagesSection img{
+    margin-top: 0.5rem;
+  }
+  .orderStatus{
+    font-size: 1.1rem;
+    color: var(--black);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* width: 30ch; */
+    overflow: hidden;
+  }
+  .dateContainer{
+    font-size: 0.9rem;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+  }
+  .date{
+    display: flex;
+  }
+  .date ul,li{
+    margin: 0;
+    /* padding: 0; */
+    color: var(--black);
+  }
+  .hide{
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+  .imagesSection{
+    display: flex;
+    gap: 0.5rem;
+  }
+  .downImage{
+    object-fit: cover;
+    cursor:pointer;
+  }
+  .dateContainer{
+    display: flex;
+  }
+ 

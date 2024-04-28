@@ -1,0 +1,11 @@
+/* CommonButton.module.css */
+.common-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Define additional  styles as needed */

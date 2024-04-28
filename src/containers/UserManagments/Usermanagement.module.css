@@ -1,0 +1,83 @@
+.inputFieldsAlignment {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.inputFieldsAlignment1 {
+  display: flex;
+  gap: 20px;
+}
+
+.inputWidth {
+  width: 13rem;
+}
+
+.inputWidth1 {
+  width: 27.2rem;
+}
+
+.modalConatiner {
+  padding-left: 14px;
+}
+
+.flex_div {
+  display: flex;
+  justify-content: flex-end;
+  width: 21em;
+  gap: 3%;
+  padding: 1% 0%;
+}
+
+.active_btn {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--white);
+  border-radius: 4px;
+  width: 5em;
+}
+
+.inactive_btn {
+  background-color: var(--grey-40);
+  border: 1px solid var(--grey-40);
+  color: var(--white);
+  border-radius: 4px;
+  width: 5em;
+}
+
+p {
+  margin: 0;
+}
+
+.action_para {
+  text-align: center;
+  padding-right: 1em;
+  position: relative;
+}
+
+.newUserOnboardinP {
+  font-size: var(--font-size-05);
+}
+
+.more_actions_div {
+  border-radius: 8px;
+  position: absolute;
+  width: 8em;
+  top: -177%;
+  right: 80%;
+  background-color: var(--white);
+  z-index: 1202;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.more_action_li {
+  padding: 5% 20%;
+  text-align: start;
+  cursor: pointer;
+  font-size: var(--font-size-02);
+}
+
+.more_action_li:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
